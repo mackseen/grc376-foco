@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset=”UTF-8”>
+
+    <!-- THE TITLE WILL APPEAR IN THE BROWSER WINDOW OR TAB -->
+    <title>Bloom Bakery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/ksg6iaf.css">
+
+    <!-- LINK TO JS-->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+            <div class="navbar">
+                <nav>
+                    <img id="Logo" src="images/bloom_logo.png" alt="Bloom" style="width: 10%;">
+                    <ul style="list-style-type: none;">
+                        <li><a href="#" onclick="showPage('Home')">Home</a></li>
+                        <li><a href="#" onclick="showPage('Brochure')">Brochure</a></li>
+                        <li><a href="http://www.grc.calpoly.edu/">Cal Poly GRC</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+
+    <main>
+        <!-- HOME -->
+        <section id="Home" style="display:none;">
+            <img id="Logo" src="images/bloom_logo2.png" alt="Bloom">
+            <!--
+            <h1 style="text-align: center;">Bloom</h1>
+            <h3 style="text-align: center;">Bakery & Cafe</h3>
+            -->
+            <div class="row1">
+                <div class="card-1">
+                    <h2>About Bloom</h2>
+                    <p>Discover the delightful fusion of Asian flavors at Bloom, a cozy local cafe and bakery in San Luis Obispo. </p>
+                    <p>Founded by a group of Cal Poly students seeking more diverse culinary options, Bloom has become a beloved spot for both students and locals.</p>
+                    <p>Our passionate team of baristas and bakers crafts a variety of freshly baked pastries, cakes, and breads, featuring unique ingredients like matcha, black sesame, yuzu, and red bean. Complement your treat with our specialty coffees, teas, and refreshing beverages.</p>
+                    <p>Come experience the warmth and creativity of Bloom!</p>
+                 </div>
+                <div class="card-2">
+                    <img id="Logo" src="images/bloom_cafe.jpeg" style="margin-top: 50px; width: 100%;">
+                </div>
+            </div>
+        </section>
+    
+        <!-- BROCHURE -->
+        <section id="Brochure" style="display:none;margin-top:4vw;">
+            <embed src="images/bloom_brochure.pdf" type="application/pdf" width="100%" height="800px" />
+        </section>
+
+        <footer>
+            <a id="toTop" href="#top">Back to top</a>
+            <img id="Socials" src="images/socials.png" alt="Facebook, Instagram, X, Youtube, TikTok" style="margin-top: 60px;">
+            <a>@bloombakery</a>
+            <a href="mailto:maxineancheta@gmail.com">bloombakery@gmail.com</a>
+        </footer>
+    </main>
+</body>
+</html>
